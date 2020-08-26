@@ -10042,13 +10042,19 @@ textarea.form-control2 {
 
 
 
-.counter-outer .counter{font-size:54px; position:relative; display:inline-block; line-height:60px;}
+.counter-outer .counter{
+	font-size:54px; 
+	position:relative; 
+	display:inline-block; 
+	line-height:60px;
+    font-weight: bolder;
+}
 
 .counter-outer span{
-	font-size: 18px;
+	font-size: 23px;
 	line-height: 18px;
 	display: block;
-	font-weight: 600;
+	font-weight: bolder;
 }
 
 .counter-box{text-align:center; padding:30px 20px; border: 1px solid #c6c6c6; position:relative;}
