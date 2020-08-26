@@ -1,0 +1,449 @@
+ /* reusable css start */
+ /* color: #50933E  */
+ /* reusable css end */
+ 
+ /*------------------- header section css  start----------------------------*/
+.header-box {
+     position: relative; 
+}
+
+.dt3-box1 {
+    position: absolute;
+    font-size: 62px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    top: 4%;
+    /* z-index: 1; */
+    border: 2px ;
+
+}
+
+
+.dt3-box {
+   z-index: 1;
+}
+
+.dt3-box-bg {
+    background-color: #50933E;
+    z-index: -1;
+    top:10px;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+}
+
+.dt3-box-border {
+    border: 10px solid rgba(255,255,255,0.3);
+    z-index: -1;
+    
+}
+
+
+
+
+.dt3-data{
+    position: absolute;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.dt3-data p {
+    margin-bottom: 10px !important;
+
+}
+
+/* .section-head h4:after {
+	position: absolute;
+	content: attr(data-title);
+	color: #1a1a1a;
+	opacity:0.1;
+	font-family: 'Rajdhani', sans-serif;
+	/* font-size: 81px; */
+	/* line-height:100px;
+	text-transform:uppercase;
+	bottom:-30px;
+	left: 50%;
+	width: 100%;
+	z-index: -1;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+} */ 
+
+
+
+/* @media (min-width: 1024px) and (max-width: 991px)  {
+    .section-head h4:after {
+       font-size: 60px;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1440px)  {
+
+    .header-content-section {
+        top:20%;
+    }  
+
+
+    .header-title {
+        font-size: 53px;
+        font-weight: 800;
+    }
+  
+    .dt3-box {
+        width: 25%;
+        height: 25%;
+     
+
+    }
+    
+    .dt3-data{
+        top: 35%;
+        left: 0%;
+        font-size: 40px;
+    }
+
+    .header-watch-video-btn {
+        position: absolute;
+        bottom: 0px !important;
+        width: 20%;
+        height: 10%;
+        font-size: 35px;
+        /* margin-bottom: 100px; */
+    }
+
+    .watch-video-btn {
+        font-size: 20px;
+    }
+}
+
+
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+
+    .header-content-section {
+        top:20%;
+    }  
+
+    .header-title {
+        font-size: 36px;
+        font-weight: 800;
+
+    }
+
+
+    /* .poduct-background-title::after{
+        font-size: 81px !important;
+    } */
+  
+    .dt3-box {
+        width: 25%;
+        height: 25%;
+     
+
+    }
+    
+    .dt3-data{
+        top: 35%;
+        left: 0%;
+        font-size: 36px;
+    }
+
+    .header-watch-video-btn {
+        position: absolute;
+        bottom: 20px !important;
+        width: 30%;
+        height: 10%;
+        font-size: 35px;
+        margin-top: 20px;
+        
+    }
+
+    .watch-video-btn {
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .header-content-section {
+        top:20%;
+    }  
+    .header-title {
+        font-size: 36px;
+        font-weight: 800;
+        letter-spacing: 2px;
+    }
+  
+  
+
+    .dt3-box {
+        width: 25%;
+        height: 25%;
+     
+
+    }
+    
+    .dt3-data{
+        top: 35%;
+        left: 0%;
+        font-size: 36px;
+    }
+
+    .header-watch-video-btn {
+        position: absolute;
+        bottom: -10px !important;
+        width: 30%;
+        height: 10%;
+        font-size: 35px;
+    }
+    
+
+    .watch-video-btn {
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 425px) and (max-width: 767px) {
+
+    .header-content-section {
+        top:15%;
+    }  
+  
+    .dt3-box {
+        width:35%;
+        height: 25%;
+     
+
+    }
+
+    .drone-flying-img {
+        display: none;
+    }
+
+.header-title {
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+    
+    .dt3-data{
+        top: 35%;
+        left: 0%;
+        font-size: 25px;
+    }
+    .header-watch-video-btn{
+        position: absolute;
+        bottom: 20px !important;
+        width: 50%;
+        height: 10%;
+        font-size: 15px;
+    }
+
+
+    .watch-video-btn {
+        font-size: 20px;
+    }
+}
+
+ @media (min-width: 320px) and (max-width: 425px) {
+
+/* @media only screen and (min-width: 320px) { */
+    .header-content-section {
+        top:15%;
+    }  
+  
+    .dt3-box {
+        width:50%;
+        height: 25%;
+     
+
+
+       
+    }
+
+    .header-content-flex {
+      justify-content: space-evenly;
+    }
+
+    .dt3-box1 {
+          font-size: 38px;  
+          margin-top: 14px;
+    }
+
+
+    .header-watch-video-btn{
+        position: absolute;
+        bottom: 20px !important;
+    }
+
+
+.header-title {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+    
+    .dt3-data{
+        top: 35%;
+        left: 0%;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .header-watch-video-btn {
+        width: 50%;
+        height: 10%;
+        font-size: 15px;
+
+    }
+
+    .watch-video-btn {
+        font-size: 15px;
+    }
+}
+
+
+ /*------------------- header section css  end----------------------------*/
+
+ /* -------------------why section css start-------------------------------- */
+
+ @media screen and (max-width: 767px) {
+    #why-section-slider {
+        display: none;
+    }
+
+    .why-section-slider-mobile {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .custom-icon-title {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+  }
+
+  @media screen and (min-width: 768px) {
+    .why-section-slider-mobile {
+        display: none;
+    }
+    
+    #why-section-slider {
+        display: block;
+    }
+
+    .logo-header{
+        height: 100% ;
+    }
+
+
+
+     .d-none-for-mobile {
+         /* position: absolute; */
+
+     }
+
+
+    .product-image-content {
+        font-size: 25px;
+    }
+
+    .address-text {
+        width: 27% ;
+    }
+
+  }
+
+  .product-image {
+      width: 500px;
+  }
+
+  @media screen and (max-width: 768px) {
+      .address-text {
+          width: 100% ;
+          padding-right: 20px;
+      }
+
+      .section-head h4:after {
+       display: none;
+     }
+
+   
+
+    .d-block-for-mobile{
+        /* display: block; */
+        margin-top: 70px;
+    }
+  }
+
+
+  @media screen and (max-width: 1440px) {
+    .d-none-for-mobile{
+        display: none;
+    }
+  }
+
+  .dt3-with-image-content{
+      right: 0;
+      top: 0;
+  }
+
+  .dt3-right-line{
+    border-right: thick solid #000;
+
+  }
+
+
+.dt3-data-on-image{
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.dt3-data-on-image div{
+    text-align: initial;
+}
+
+.dt3-on-image {
+    font-size: 70px;
+    font-weight: bolder;
+    padding-right: 10px;
+}
+
+.services-section-hover :hover {
+    
+}
+
+
+  
+
