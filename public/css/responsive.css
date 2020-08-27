@@ -392,12 +392,20 @@
 
   @media screen and (max-width: 768px) {
       .address-text {
-          width: 100% ;
+          width: 91% ;
           padding-right: 20px;
       }
 
       .section-head h4:after {
        display: none;
+     }
+
+     .heading-section-title {
+         font-size: 26px;
+     }
+
+     .application-content-onhover p {
+        font-size: 16px !important;
      }
 
    
@@ -414,6 +422,35 @@
         font-size: 10px !important;
         font-weight: 800;
         padding-left: 5px !important;
+    }
+
+
+    .section-page-title {
+        text-align: center;
+        padding: 0px !important;
+    
+    }
+
+    .top-drone-service-provider {
+        font-size: 10px !important;
+        margin-left: 0px !important;
+    }
+
+    .fbIcon {
+        width: 26px !important;
+    }
+
+    .linkedin-icon {
+        width: 26px !important;
+    }
+
+    .ai-driven-soln-text {
+        font-size: 7px !important;
+        letter-spacing: 0.3px;
+    }
+
+    .services-section-hover {
+        padding: 0px     15px !important;
     }
   }
 
@@ -471,6 +508,7 @@
     opacity: 0;
     background: rgba(0,0,0,0.5);
     color: white;
+    overflow: auto;
     /* font-size: 20px; */
 
 }
